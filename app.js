@@ -10,7 +10,7 @@ const blogrouter = require('./routes/blogRoutes');
 // express app
 const app = express();
 
-const dbURI = 'mongodb+srv://yves_admin_user:admin123@cluster0.iohsg.mongodb.net/yves-base?retryWrites=true&w=majority';
+const dbURI = 'Secret :)';
 mongoose.connect(dbURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
